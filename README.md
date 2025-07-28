@@ -111,6 +111,37 @@ Running option 3 will generate an EVM address and save it to `addresses_evm.txt`
 - **Environment**: Run this script in a secure, offline environment.
 - **File Deletion**: Clear output files manually after use.
 
+## 🐞 Troubleshooting
+
+### Error: `Microsoft Visual C++ 14.0 or greater is required.`
+<img width="979" height="512" alt="image_2025-07-28_16-09-37" src="https://github.com/user-attachments/assets/f61e1c26-b07e-4823-84b4-754c98754979" />
+<img width="979" height="512" alt="image_2025-07-28_16-10-00" src="https://github.com/user-attachments/assets/5934f73d-6c7d-451a-9bad-b32941fad3c9" />
+
+
+This error appears because the `ed25519-blake2b` package used by `bip_utils` needs C++ compilation. This requires Microsoft C++ Build Tools.
+
+✅ **To fix it:**
+
+1. Go to: [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+2. Download and install **Build Tools for Visual Studio**
+3. In the installer, select **"C++ build tools"**
+4. Make sure the component **"MSVC v14.x"** is checked (e.g., MSVC v14.3x - VS 2022 C++ x64/x86 build tools)
+5. Restart your terminal (CMD/PowerShell) and try again:
+
+```bash
+pip install bip_utils
+```
+
+💡 **Alternative (temporary)**:
+
+If you're using only **EVM** (Ethereum) and **not Solana**, you can:
+
+- Comment out or remove `seed_to_solana_keypair()` from the code
+- Remove `bip_utils` from `requirements.txt`
+- Use only `eth_account`
+
+However, for full functionality including Solana, installing the build tools is required.
+
 ## 🤝 Contributing
 Feel free to submit issues or pull requests on GitHub. Contributions are welcome! 🎉
 
