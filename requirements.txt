@@ -1,0 +1,4 @@
+eth-account
+mnemonic
+bip-utils>=2.9.0
+base58
