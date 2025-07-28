@@ -55,7 +55,7 @@ cd crypto-keypair-generator
 
 Создайте файл mnemonics.txt в директории проекта.
 Добавьте одну или несколько мнемонических фраз BIP-39 (например, фразы из 12 слов), каждую на новой строке.
-Пример mnemonics.txt:retire fashion finish extend loop situate version picnic paddle sibling earn humor
+
 
 
 
