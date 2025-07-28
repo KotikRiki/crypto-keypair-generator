@@ -55,7 +55,7 @@ Prepare the mnemonic file:
 
 Create a file named mnemonics.txt in the project directory.
 Add one or more BIP-39 mnemonic phrases (e.g., 12-word phrases), each on a new line.
-Example mnemonics.txt:retire fashion finish extend loop situate version picnic paddle sibling earn humor
+
 
 
 
