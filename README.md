@@ -64,7 +64,8 @@ venv\Scripts\activate
 - On **macOS/Linux**:
 ```bash
 source venv/bin/activate
-```
+```<img width="953" height="157" alt="Снимок экрана 2025-07-28 в 15 18 12" src="https://github.com/user-attachments/assets/f70670db-9a05-4907-9d42-a726144b0666" />
+
 
 ### 3. Install dependencies:
 ```bash
