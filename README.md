@@ -9,7 +9,7 @@
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/KoTiRiKi/crypto-keypair-generator/actions) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## ⚠️ Important Notice
-If you are using this script to generate keypairs, ensure your mnemonic phrases are valid BIP-39 sequences. Invalid or incomplete phrases may lead to errors or insecure keypairs. Use in a secure, offline environment and never share private keys publicly.
+If you are using this script to generate keypairs, ensure your mnemonic phrases are valid BIP-39 sequences. Invalid or incomplete phrases may lead to errors or insecure keypairs. Use in a secure, offline environment and never share private keys publicly. 
 
 ## 📰 News
 - 📅 **[2025-07-28 13:59 CEST]** Initial release of the Crypto Keypair Generator on GitHub!
@@ -116,3 +116,6 @@ Feel free to submit issues or pull requests on GitHub. Contributions are welcome
 
 ## 📜 License
 This project is licensed under the MIT License.
+
+
+seed to private seed to addresses evm sol 
