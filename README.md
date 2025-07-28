@@ -126,6 +126,8 @@ This error appears because the `ed25519-blake2b` package used by `bip_utils` nee
 2. Download and install **Build Tools for Visual Studio**
 3. In the installer, select **"C++ build tools"**
 4. Make sure the component **"MSVC v14.x"** is checked (e.g., MSVC v14.3x - VS 2022 C++ x64/x86 build tools)
+   <img width="1229" height="535" alt="image_2025-07-28_16-58-20" src="https://github.com/user-attachments/assets/922880b9-6cdf-4aab-a0be-a0636c5776e8" />
+
 5. Restart your terminal (CMD/PowerShell) and try again:
 
 ```bash
