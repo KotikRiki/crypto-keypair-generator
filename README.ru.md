@@ -47,6 +47,13 @@ pip install -r requirements.txt
 
 ## 📋 Установка
 
+Клонируйте репозиторий:
+
+```bash
+git clone https://github.com/KoTiRiKi/crypto-keypair-generator.git
+cd crypto-keypair-generator
+```
+
 ```bash
 python -m venv venv
 ```
@@ -63,13 +70,6 @@ venv\Scriptsctivate
 
 ```bash
 source venv/bin/activate
-```
-
-Клонируйте репозиторий:
-
-```bash
-git clone https://github.com/KoTiRiKi/crypto-keypair-generator.git
-cd crypto-keypair-generator
 ```
 
 Установите зависимости:
