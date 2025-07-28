@@ -11,6 +11,9 @@
 ## ⚠️ Important Notice
 If you are using this script to generate keypairs, ensure your mnemonic phrases are valid BIP-39 sequences. Invalid or incomplete phrases may lead to errors or insecure keypairs. Use in a secure, offline environment and never share private keys publicly. 
 
+FOR THE LAZY WITH FULL INSTRUCTIONS: https://github.com/KotikRiki/crypto-keypair-for-the-lazy
+
+
 ## 📰 News
 - 📅 **[2025-07-28 13:59 CEST]** Initial release of the Crypto Keypair Generator on GitHub!
 
