@@ -44,7 +44,13 @@ pip install -r requirements.txt
 
 ## 📋 Installation
 
-### 1. Set up a virtual environment (recommended):
+### 1. Clone the repository:
+```bash
+git clone https://github.com/KoTiRiKi/crypto-keypair-generator.git
+cd crypto-keypair-generator
+```
+
+### 2. Set up a virtual environment (recommended):
 ```bash
 python -m venv venv
 ```
@@ -58,12 +64,6 @@ venv\Scripts\activate
 - On **macOS/Linux**:
 ```bash
 source venv/bin/activate
-```
-
-### 2. Clone the repository:
-```bash
-git clone https://github.com/KoTiRiKi/crypto-keypair-generator.git
-cd crypto-keypair-generator
 ```
 
 ### 3. Install dependencies:
