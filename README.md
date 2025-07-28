@@ -22,6 +22,7 @@ The **Crypto Keypair Generator** is a Python script that generates Ethereum (EVM
 **⚠️ Security Warning**: This script handles sensitive cryptographic data (mnemonic phrases and private keys). Never use it in an insecure environment, share private keys publicly, or store them unencrypted. Use at your own risk.
 
 ## 🚀 Features
+<img width="953" height="157" alt="Снимок экрана 2025-07-28 в 15 18 12" src="https://github.com/user-attachments/assets/f70670db-9a05-4907-9d42-a726144b0666" />
 - ✅ Generate EVM private keys from mnemonic phrases.
 - ✅ Generate EVM addresses from mnemonic phrases or private keys.
 - ✅ Generate Solana private keys from mnemonic phrases.
@@ -64,8 +65,6 @@ venv\Scripts\activate
 - On **macOS/Linux**:
 ```bash
 source venv/bin/activate
-```<img width="953" height="157" alt="Снимок экрана 2025-07-28 в 15 18 12" src="https://github.com/user-attachments/assets/f70670db-9a05-4907-9d42-a726144b0666" />
-
 
 ### 3. Install dependencies:
 ```bash
