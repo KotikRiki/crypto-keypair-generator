@@ -54,6 +54,7 @@ git clone https://github.com/KoTiRiKi/crypto-keypair-generator.git
 cd crypto-keypair-generator
 ```
 
+
 ```bash
 python -m venv venv
 ```
